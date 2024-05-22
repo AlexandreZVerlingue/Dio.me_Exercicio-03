@@ -1,0 +1,141 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    text-align: center;
+}
+figure .logo {
+    width: 300px;
+    text-align: center;
+}
+summary {
+    line-height: 32px;
+}
+
+ul { list-style: none; padding-left: 5px; }
+.aeronaves {
+    list-style: disc;
+    margin: 20px;
+}
+a { 
+    color:blue; text-decoration: none;   
+}
+a:hover {
+color: rgb(0, 26, 255);
+background-color: #cdcdcd3d;
+padding: 2px 10px 2px 10px;
+border-radius: 12px;
+font-weight: bold;
+font-size: 16px;
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+}
+.bandeirante {
+    width: 220px;
+    border: solid 1px lightgray;
+    margin: 0;
+    padding: 5px;
+}
+.texto-bandeirante {
+    width: 617px;
+    margin-left: 10px;
+    line-height: 19px;
+}
+.bandeirante, .texto-bandeirante, .caption-bandeirante, .caption-mapa, .mapa, .texto-mapa {
+    display: inline-block; 
+    text-align: justify; 
+}
+.caption-bandeirante{
+    font-size: 12px;
+    max-width: 220px;
+    word-break: break-all;
+    line-height: 17px;  
+}
+.mapa {
+    width: 310px;
+    margin: 0;
+    border: solid 1px lightgray;
+    padding: 3px;
+}
+figure .mapa {
+    border: solid 1px lightgray;
+    width: 302px;
+}
+.caption-mapa{
+    font-size: 12px;
+    max-width: 310px;
+    word-break: break-all;
+    line-height: 17px;  
+}
+.texto-mapa {
+    width: 527px;
+    margin-left: 14px;
+    line-height: 24px;
+}
+th {
+    border: solid 1px gray;
+    background-color: gray;
+    color: white;
+}
+table {
+    width: 865px;
+    text-align: center;
+    
+    padding: 10px;
+}
+tbody tr:nth-child(even) td {
+    background-color: lightgray;
+}
+ .brasilia, .erj-145, .e-190, .e-190-e2 {
+    display: inline-block;
+   margin: 2px;
+   text-align: center;
+}
+.brasilia-img, .erj-145-img, .e-190-e2-img {
+    border: solid 1px lightgray;
+    padding: 8px;
+} 
+.e-190-img {
+    border: solid 1px lightgray;
+    padding: 16px;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.imagem-rodape-1, .imagem-rodape-2 {
+    display: inline-block;
+    margin: 2px;
+}
+.imagem-rodape-1:hover {
+    padding: 0;
+}
+.imagem-rodape-2:hover {
+    padding: 0;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
